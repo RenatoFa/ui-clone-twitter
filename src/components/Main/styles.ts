@@ -34,7 +34,7 @@ export const Header = styled.div`
  text-align:left;
 
  padding: 8px 0 9px 13px;
- border-bottom: 1px solid var(--outline);
+border-bottom: 1px solid var(--outline); 
 
 > button{
     padding:8px;
@@ -52,10 +52,25 @@ export const Header = styled.div`
 export const BackIcon = styled(ArrowLeft)`
 width:24px;
 height:24px;
-
 fill: var(--twitter)
+
+
 
 `;
 
 export const ProfileInfo = styled.div`
+margin-left:17px;
+
+display:flex;
+flex-direction:column;
+
+> strong{
+    font-size:19px;
+}
+
+> span{
+    font-size: 15px;
+    color: var(--gray)
+}
+
 `;
