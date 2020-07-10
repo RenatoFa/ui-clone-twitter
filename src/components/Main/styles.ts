@@ -76,6 +76,8 @@ flex-direction:column;
 `;
 
 const iconCss = css`
+width:31px;
+height:31px
 
 `;
 
