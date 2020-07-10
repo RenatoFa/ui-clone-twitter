@@ -93,7 +93,8 @@ fill: var(--gray);
 `;
 
 export const BottomMenu = styled.div`
- 
+ position:fixed;
+ bottom: 0
 `;
 
 
