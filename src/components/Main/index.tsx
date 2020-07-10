@@ -23,7 +23,7 @@ const Main: React.FC = () => {
           </Header>  
 
           <BottomMenu>
-              <HomeIcon/>
+              <HomeIcon className="active"/>
               <SearchIcon/>
               <BellIcon/>
               <EmailIcon/>
