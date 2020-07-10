@@ -1,4 +1,5 @@
 import React from 'react';
+import Feed from '../Feed/index'
 
 import {Container,Banner , Avatar , ProfileData,LocationIcon,CakeIcon,Followage,EditButton} from './styles'
 
