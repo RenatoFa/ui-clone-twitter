@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import {ArrowLeft} from '../../styles/Icons'
+import styled,{css} from 'styled-components';
+import {ArrowLeft,Home,Search,Notifications,Email} from '../../styles/Icons'
 
 export const Container = styled.div`
  display:flex;
@@ -73,4 +73,30 @@ flex-direction:column;
     color: var(--gray)
 }
 
+`;
+
+const iconCss = css`
+
+`;
+
+export const BottomMenu = styled.div`
+ ${iconCss}
+`;
+
+
+export const HomeIcon = styled(Home)`
+${iconCss}
+`;
+
+export const SearchIcon = styled(Search)`
+${iconCss}
+`;
+
+
+export const BellIcon = styled(Notifications)`
+${iconCss}
+`;
+
+export const EmailIcon = styled(Email)`
+${iconCss}
 `;

@@ -22,7 +22,7 @@ html,border-style,#root{
 
 *,button,input{
     border:0;
-    background:nome;
+    background:none;
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
