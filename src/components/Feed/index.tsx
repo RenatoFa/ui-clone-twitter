@@ -1,26 +1,23 @@
 import React from 'react';
-import {Container , Tab, Tweets} from '../Feed/styles'
-import Tweet from '../Tweet/index'
-const Feed: React.FC =()=>{
-    return (
-    
+
+import Tweet from '../Tweet';
+
+import { Container, Tab, Tweets } from './styles';
+
+const Feed: React.FC = () => {
+  return (
     <Container>
-        <Tab>Tweets</Tab>
+      <Tab>Tweets</Tab>
 
-        <Tweets>
-            <Tweet/>
-            <Tweet/>
-            <Tweet/>
-            <Tweet/>
-            <Tweet/>
-            <Tweet/>
-        </Tweets>
+      <Tweets>
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
+        <Tweet />
+      </Tweets>
+    </Container>
+  );
+};
 
-       
-
-        
-
-    </Container>)
-}
-
-export default Feed
+export default Feed;
