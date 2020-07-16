@@ -11,11 +11,12 @@ FavoriteIcon,
 ProfileIcon,
 } from './styles';
  
-// import { Container } from './styles';
+
 
 const MenuBar: React.FC = () => {
     return (
         <Container>
+            
             <Topside>
                 <Logo />
                 <MenuButton>
@@ -29,7 +30,7 @@ const MenuBar: React.FC = () => {
                     <span>Notificações</span>
 
                 </MenuButton>
-
+            
                 <MenuButton>
                     <EmailIcon/>
                     <span>Mensagens</span>
