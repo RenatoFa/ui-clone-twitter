@@ -74,7 +74,10 @@ flex-shrink:0;
 
         font-weight:bold;
         font-size:19px;
+
+        
     }
+    padding-right:15px
 }
 
 padding: 8.25px 0;
@@ -102,6 +105,18 @@ outline: 0;
             display:inline
         }
     }
+}
+
+cursor : pointer;
+border-radius: 25px;
+
+&:hover{
+    background: var(--twitter-dark-hover);
+
+}
+
+&:hover , &.active{
+
 }
 
 `;
