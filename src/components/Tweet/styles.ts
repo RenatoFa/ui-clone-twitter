@@ -128,6 +128,20 @@ font-size:14px;
 >svg{
   margin-right: 5px;
 }
+
+&:nth-child(1){
+  &, > svg path {
+    color:var(--gray);
+
+  }
+}
+&:nth-child(2){
+  color:var(--retweet);
+
+  >svg path{
+    fill: var(--retweet)
+  }
+}
 `;
 
 const iconCss = css`
