@@ -147,6 +147,7 @@ font-size:14px;
 
   > svg { 
     fill: var(--like);
+    /*Finalização do Mobile First */
   }
 
 }
