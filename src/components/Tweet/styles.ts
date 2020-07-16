@@ -142,6 +142,14 @@ font-size:14px;
     fill: var(--retweet)
   }
 }
+&:nth-child(3){
+  color:var (--like);
+
+  > svg { 
+    fill: var(--like);
+  }
+
+}
 `;
 
 const iconCss = css`
