@@ -1,50 +1,57 @@
 import React from 'react';
 import Button from '../Button';
-import {Container,
-Topside,
-Logo,
-MenuButton,
-HomeIcon,
-BellIcon,
-EmailIcon,
-FavoriteIcon,
-ProfileIcon,
+import {
+    Container,
+    Topside,
+    Logo,
+    MenuButton,
+    HomeIcon,
+    BellIcon,
+    EmailIcon,
+    FavoriteIcon,
+    ProfileIcon,
+    ExitIcon,
+    Botside,
+    ProfileData,
+    Avatar
+    
+
 } from './styles';
- 
+
 
 
 const MenuBar: React.FC = () => {
     return (
         <Container>
-            
+
             <Topside>
                 <Logo />
                 <MenuButton>
-                    <HomeIcon/>
+                    <HomeIcon />
                     <span>Página Inicial</span>
 
                 </MenuButton>
 
                 <MenuButton>
-                    <BellIcon/>
+                    <BellIcon />
                     <span>Notificações</span>
 
                 </MenuButton>
-            
+
                 <MenuButton>
-                    <EmailIcon/>
+                    <EmailIcon />
                     <span>Mensagens</span>
 
                 </MenuButton>
 
                 <MenuButton>
-                    <FavoriteIcon/>
+                    <FavoriteIcon />
                     <span>Favoritados</span>
 
                 </MenuButton>
 
-                <MenuButton className = "active" >
-                    <ProfileIcon/>
+                <MenuButton className="active" >
+                    <ProfileIcon />
                     <span>Perfil</span>
 
                 </MenuButton>
@@ -54,6 +61,19 @@ const MenuBar: React.FC = () => {
 
                 </Button>
             </Topside>
+
+            <Botside>
+                <Avatar/>
+
+                <ProfileData>
+                    <strong>Renato Ferreira de Assis</strong>
+                    <span>Renato_FA</span>
+                </ProfileData>
+
+                <ExitIcon/>
+
+
+            </Botside>
         </Container>
     );
 }
