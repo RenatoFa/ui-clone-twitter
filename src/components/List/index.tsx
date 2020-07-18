@@ -1,11 +1,31 @@
 import React from 'react';
+import {
+    Container,
+    Item,
+    Title,
+     
+} from './styles';
+
 
 // import { Container } from './styles';
+interface Props {
+    title: string;
+    elements: React.ReactNode[];
+}
+const List: React.FC<Props> = ({title,elements}) => {
+    return (
+        
+        <Container>
+            <Item>
+                <Title>{title}</Title>
+            </Item>
 
-const List: React.FC = () => {
-  return (
-      
-  );
+            {elements.map((element , index)=>{
+                <Item key={index}>{element} </Item>
+            })}
+        </Container>
+
+    );
 }
 
 export default List;
