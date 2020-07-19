@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-
+import Button from '../Button/index'
 
 export const Container = styled.div`
   display:flex;
@@ -26,14 +26,22 @@ export const Info= styled.div`
 display:flex;
 flex-direction: column;
 
-font-size:14px;
 
->ssotnh {
 
+>strong {
+
+    font-size:14px;
+
+}
+
+>span{
+    font-size:14px;
+    color: var(--gray)
 }
   
 `;
 
-export const FollowButton = styled.div`
+export const FollowButton = styled(Button)`
+  padding: 6px 17px;
   
 `;
